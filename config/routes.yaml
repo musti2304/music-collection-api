@@ -1,17 +1,23 @@
 #######################################################
-authorize:
-  path: api/v1/authorize
-  controller: App\Controller\LoginController::authorize
 
-access:
-  path: api/v1/access
-  controller: App\Controller\LoginController::access
-
-artists:
-  path: api/v1/artists
-  controller: App\Controller\ArtistController::getArtists
-
-init:
-  path: api/v1/init
-  controller: App\Controller\InitController::init
-  method: [POST]
+#initialize:
+#  path: api/v1/init
+#  controller: App\Controller\InitController::init
+#  methods: [ POST ]
+#    #  defaults:
+#    #    permanent: false
+#    #    keepRequestMethod: true
+#
+#
+## Gets all artists
+#get_artists:
+#  path: api/v1/artists
+#  controller: App\Controller\ArtistController::getArtists
+#  methods: [ GET ]
+#
+## Gets one artist by it's id
+#get_artist:
+#  path: api/v1/artists/{id}
+#  controller: App\Controller\ArtistController::getArtist
+#  methods: [ GET ]
+#

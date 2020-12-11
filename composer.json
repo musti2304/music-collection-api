@@ -4,7 +4,16 @@
     "require": {
         "php": ">=7.4",
         "ext-ctype": "*",
+        "ext-curl": "*",
         "ext-iconv": "*",
+        "ext-json": "*",
+        "ext-mysqli": "*",
+        "ext-pdo": "*",
+        "composer/package-versions-deprecated": "1.11.99.1",
+        "doctrine/annotations": "^1.11",
+        "doctrine/doctrine-bundle": "^2.2",
+        "doctrine/doctrine-migrations-bundle": "^3.0",
+        "doctrine/orm": "^2.7",
         "jwilsson/spotify-web-api-php": "^3.6",
         "sensio/framework-extra-bundle": "^5.6",
         "symfony/console": "5.1.*",
@@ -14,14 +23,13 @@
         "symfony/monolog-bundle": "^3.6",
         "symfony/stopwatch": "^5.1",
         "symfony/twig-bundle": "^5.1",
+        "symfony/validator": "5.1.*",
         "symfony/web-profiler-bundle": "^5.1",
-        "symfony/yaml": "5.1.*",
-      "ext-curl": "*",
-        "ext-json": "*",
-        "ext-mysqli": "*"
+        "symfony/yaml": "5.1.*"
     },
     "require-dev": {
         "symfony/debug-bundle": "^5.1",
+        "symfony/maker-bundle": "^1.24",
         "symfony/var-dumper": "^5.1"
     },
     "config": {
